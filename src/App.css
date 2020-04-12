@@ -1,0 +1,89 @@
+h1 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: white;
+}
+
+#cards-div {
+    height: 420px;
+    width: 320px;
+    background-color: gray;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 40px;
+    float: left;
+  }
+  
+  #card-container{
+    width: 100%;
+    margin: auto;
+  }
+  
+  #cards-div:hover {
+    animation: grow 3s;
+  }
+  
+  #cards-div img{
+    height: 230px;
+    width: 100%;
+    background-color: lightsalmon;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+  }
+  
+  h1,h2,h3,h4,h6,h6,p{
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  
+  .tc {
+    text-align: center;
+  }
+  
+  #searchInput {
+    /* width: 320px;
+    height: 50px;
+    margin-left: 40%;
+    border-radius: 20%;
+    box-sizing: border-box;
+    padding-left: 40px;
+    font-size: 23px;
+    background-color: rgb(222, 226, 228); */
+    border: 2px solid #077971;
+  border-radius: 30px;
+  height: 32px;
+  margin-left: 40%;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  color: #3D3D3C;
+  font-weight: 400;
+  padding-left: 15px;
+  padding-right: 20px;
+  }
+
+  button {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 18px;
+    color: #01A093;
+    position: relative;
+    right: 44px;
+    top: 1px;
+    cursor: pointer;
+  }
+  
+  @keyframes grow{
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1.1);
+    }
+    100%{
+      text-replace: scale(1);
+    }
+  
+  }
