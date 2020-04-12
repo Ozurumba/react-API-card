@@ -1,6 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1> React API Cards </h1>
 
-## Available Scripts
+https://quizzical-bose-515bf1.netlify.com/
+
+<h5> This App fetches picture API of different users in cards </h5>
 
 In the project directory, you can run:
 
